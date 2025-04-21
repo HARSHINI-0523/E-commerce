@@ -1,0 +1,82 @@
+get http://localhost:4000/user-api/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hZGh1IiwiaWF0IjoxNzIxOTcwNjE4LCJleHAiOjE3MjE5NzQyMTh9.dj0d6gsuTauuAPvthW2atKxvELxwq5-GwikMa9Dfeig
+
+
+
+
+
+###
+get http://localhost:4000/user-api/users/madhu
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hZGh1IiwiaWF0IjoxNzIxOTcwNjE4LCJleHAiOjE3MjE5NzQyMTh9.dj0d6gsuTauuAPvthW2atKxvELxwq5-GwikMa9Dfeig
+
+
+###
+post http://localhost:4000/user-api/user
+Content-Type: application/json
+
+{
+    "fullname":"bhanu",
+    "username":"bhanu",
+    "password":"bhanu",
+    "email":"bhanu@gmail.com",
+    "products":[]
+}
+
+###
+post http://localhost:4000/user-api/login
+Content-Type: application/json
+
+{
+    
+    "username":"madhu",
+    "password":"madhu"
+   
+}
+
+
+
+
+
+
+
+###
+put http://localhost:4000/user-api/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hZGh1IiwiaWF0IjoxNzIwODY3NDU3LCJleHAiOjE3MjA4NzEwNTd9.hUVEHKQ-ff8HMYtekj2_wnTmhRM6AD5zJ8qYYBaUhRc
+
+
+{
+    "fullname":"madhu sarma",
+    "username":"madhu",
+    "password":"madhu",
+    "email":"madhusarma@gmail.com"
+}
+
+
+
+
+###
+delete http://localhost:4000/user-api/user/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hZGh1IiwiaWF0IjoxNzIwODYwNjkxLCJleHAiOjE3MjA4NjQyOTF9.rq1To5-djRFwJniKaHE7W40V3bpGgPuwbsCe283vxSk
+
+
+
+
+###Product API
+get http://localhost:4000/product-api/products
+
+###
+get http://localhost:4000/product-api/products/31
+
+###
+put http://localhost:4000/user-api/add-to-cart/ravi
+Content-Type: application/json
+
+{ 
+    "id":2,
+    "title":"test",
+    "description":"The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+    "category":"beauty",
+    "price":9.99
+         
+}

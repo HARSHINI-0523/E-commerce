@@ -1,0 +1,8 @@
+.header{
+    background-color: var(--medium-dark);
+    align-items: center;
+}
+
+.header h1{
+    color:var(--dark-pink)
+}
