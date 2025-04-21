@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a fully functional **E-Commerce Website** built as part of a **Full-Stack Development** course. The website provides a shopping platform with the ability to view products, add them to the cart, and make purchases. It also includes a login and registration system for users to sign up, log in, and manage their accounts.
+This is a fully functional **E-Commerce Website** built as part of a **Full-Stack Development** course. The website provides a shopping platform with the ability to view products, add them to the cart and remove the products from the cart . It also includes a login and registration system for users to sign up and log in.
 
 ## Features
 
