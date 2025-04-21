@@ -6,8 +6,8 @@ This is a fully functional **E-Commerce Website** built as part of a **Full-Stac
 
 ## Features
 
-- **Home Page**: Displays a list of products available for purchase.
-- **Login & Registration**: Users can sign up, log in, and manage their accounts.
+- **Home Page**: Displays the information about the webpage
+- **Login & Registration**: Users can sign up, log in.
 - **Product Catalog**: A selection of products that can be added to the cart.
 - **Shopping Cart**: Users can add, view, and delete products from their shopping cart.
 - **About Us**: Information about the project and its creators.
@@ -86,6 +86,6 @@ The app will now be running on http://localhost:3000 (frontend) and http://local
 
 2. Login: Log into your account to manage your cart and profile.
 
-3. Shop: Browse products, add them to the cart, and proceed with your purchases.
+3. Shop: Browse products, add them to the cart.
 
 4. Cart Management: You can add or remove items from your shopping cart.
